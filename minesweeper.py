@@ -34,7 +34,7 @@ class Minesweeper:
         # neighbor postions
         neighborPositions = [[-1, -1], [-1, 0], [-1, 1],  # top
                              [0, -1],           [0, 1],   # left and right
-                             [1, -1],  [1, 0],  [1, 1]]     # bot
+                             [1, -1],  [1, 0],  [1, 1]]   # bot
         minesNum = 0
         for i in range(len(neighborPositions)):
             mRow = row + neighborPositions[i][0]
@@ -54,7 +54,7 @@ class Minesweeper:
         # neighbor postions
         neighborPositions = [[-1, -1], [-1, 0], [-1, 1],  # top
                              [0, -1],           [0, 1],   # left and right
-                             [1, -1],  [1, 0],  [1, 1]]     # bot
+                             [1, -1],  [1, 0],  [1, 1]]   # bot
         for i in range(len(neighborPositions)):
             mRow = row + neighborPositions[i][0]
             mCol = col + neighborPositions[i][1]
