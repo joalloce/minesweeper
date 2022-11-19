@@ -166,7 +166,7 @@ def start():
                   minesweeper.size - 1)
             continue
 
-        # validate the row and col selected.
+        # click on the row and col selected.
         validClick = minesweeper.click(mRow, mCol)
 
     if validClick:
